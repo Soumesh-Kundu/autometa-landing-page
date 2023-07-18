@@ -1,0 +1,116 @@
+<template>
+    <section class="max-w-screen-xl px-4 pt-10 mx-auto mb-10 sm:px-16">
+        <h2 class="block w-full max-w-md mx-auto text-3xl font-semibold text-center sm:text-4xl">Start with something simple and then
+            scale up</h2>
+        <div class="grid grid-cols-1 gap-10 mt-10 lg:grid-cols-2">
+            <div class="flex-col items-center hidden py-20 rounded-md bg-primary-100 lg:flex">
+                <div class="relative flex items-center justify-between w-3/5 gap-2 py-1 mx-2 bg-white rounded-md">
+                    <div class="flex items-center gap-1">
+                        <div class="grid w-8 h-8 m-2 bg-white place-items-center"><img src="../../assets/images/Gmail-logo.png"
+                                alt="" class="w-full scale-125"></div>
+                        <div class="text-[11px] font-bold">
+                            <span class="text-gray-500 ">Trigger</span>
+                            <p class="">A new gmail from kornelius@gmail.com</p>
+                        </div>
+                    </div>
+                    <EllipsisVerticalIcon class="w-5 h-5" />
+                </div>
+                <div class="flex w-3/5 h-8">
+                    <div class="w-1/2 h-full border-b border-r border-r-primary-500 border-b-primary-500 rounded-br-md">
+                    </div>
+                    <div class="w-1/2 h-full border-b border-b-primary-500 rounded-bl-md"></div>
+                </div>
+                <div class="flex flex-col w-3/5 gap-10 border-l border-r border-r-primary-500 border-l-primary-500">
+                    <div class="relative w-full mt-5">
+                        <div
+                            class="absolute top-0 left-0 py-2 px-3 -translate-x-1/2 text-[11px] font-bold bg-white rounded-md">
+                            <span class="text-gray-500 ">Conditions</span>
+                            <p class="">If the email subject is ui designer</p>
+                        </div>
+                        <div
+                            class="absolute top-0 right-0 py-2 px-3 translate-x-1/2 text-[11px] font-bold bg-white rounded-md">
+                            <span class="text-gray-500 ">Condtions</span>
+                            <p class="">if the email subject is software dev</p>
+
+                        </div>
+                    </div>
+                    <div class="relative w-full mt-10">
+                        <div
+                            class="absolute top-0 left-0 py-2 px-3 -translate-x-1/2 text-[11px] font-bold bg-white rounded-md flex items-center gap-2">
+                            <img src="../../assets/images/notion.png" alt="" class="w-5 h-5">
+                            <div>
+                                <span class="text-gray-500 ">Do</span>
+                                <p class="">Input in Notion page</p>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute top-0 right-0 py-2 px-3 translate-x-1/2 text-[11px] font-bold bg-white rounded-md flex items-center gap-2">
+                            <img src="../../assets/images/notion.png" alt="" class="w-5 h-5">
+                            <div>
+                                <span class="text-gray-500 ">Do</span>
+                                <p class="">Input in Notion page</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative w-full mt-10">
+                        <div
+                            class="absolute top-0 left-0 py-2 px-3 -translate-x-1/2 text-[11px] font-bold bg-white rounded-md flex items-center gap-2">
+                            <img src="../../assets/images/spreadsheet.png" alt="" class="w-5 h-5">
+                            <div>
+                                <span class="text-gray-500 ">Do</span>
+                                <p class="">Input in Spreadsheet</p>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute top-0 right-0 py-2 px-3 translate-x-1/2 text-[11px] font-bold bg-white rounded-md flex items-center gap-2">
+                            <img src="../../assets/images/spreadsheet.png" alt="" class="w-5 h-5">
+                            <div>
+                                <span class="text-gray-500 ">Do</span>
+                                <p class="">Input in Spreadsheet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <ul class="flex flex-col gap">
+                    <li
+                        class="flex items-start gap-5 px-4 py-10 bg-gray-100 border-b border-l-4 border-gray-200 border-l-primary-500">
+                        <div class="text-xl font-semibold">01</div>
+                        <div>
+                            <h4 class="text-xl font-semibold">Mutli-step workflows</h4>
+                            <p class="mt-2 text-sm font-medium text-gray-500">Create automated workflows that do more than
+                                just one thing-
+                                up to 100 steps, to be specific.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-5 px-4 py-10 border-b border-gray-200 ">
+                        <div class="text-xl font-semibold">02</div>
+                        <div>
+                            <h4 class="text-xl font-semibold">Conditional logic</h4>
+                            <p class="mt-2 text-sm font-medium text-gray-500">Add customized if/then logic to your workflows
+                                so they work exactly how you would-but
+                                automatically.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-5 px-4 py-10 ">
+                        <div class="text-xl font-semibold">03</div>
+                        <div>
+                            <h4 class="text-xl font-semibold">Data formatting</h4>
+                            <p class="mt-2 text-sm font-medium text-gray-500">
+                                Transform data from one app into the right format before passing it on to another app. No
+                                data science degree required!
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</template>
+
+<script setup>
+import { EllipsisVerticalIcon } from '@heroicons/vue/24/outline';
+</script>
