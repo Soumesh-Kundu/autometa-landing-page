@@ -1,6 +1,6 @@
 <template>
     <section class="grid max-w-screen-xl grid-cols-1 gap-8 px-4 mx-auto my-20 md:px-16 md:grid-cols-2 place-items-center">
-        <h2 class="text-3xl font-semibold sm:text-4xl">Automate anthing by automations</h2>
+        <h2 class="text-3xl font-semibold sm:text-4xl">Run your business on Autopilot</h2>
         <p class="text-sm font-medium text-gray-500 ">Don't spend time on manual work. Let us do it for you. Streamline
             processes. make sure your team doesn't miss critical steps, and deliver value faster with Automation.</p>
         <div class="flex flex-col gap-2 px-4 py-3 bg-white rounded-md shadow-lg">
