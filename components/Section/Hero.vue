@@ -1,5 +1,5 @@
 <template>
-    <main class="grid max-w-screen-xl grid-cols-1 mx-auto mb-5 lg:grid-cols-2">
+    <main class="grid grid-cols-1 mx-auto mb-5 max-w-screen-2xl lg:grid-cols-2">
         <div class="flex flex-col items-center gap-5 px-2 py-8 pb-16 md:pl-8">
             <div class="flex flex-wrap items-center justify-start w-full gap-3 sm:gap-5 ">
                 <div
@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="relative px-4 my-4 bg-gray-100 rounded-md lg:mr-16 ">
+        <div class="relative px-4 my-4 bg-gray-100 rounded-md lg:mr-8 ">
             <form class="flex items-center mx-auto mt-5 sm:gap-4 " @submit.prevent="addList">
                 <label for="voice-search" class="sr-only">Search</label>
                 <div class="relative w-full">

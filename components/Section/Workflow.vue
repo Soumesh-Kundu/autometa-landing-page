@@ -1,5 +1,5 @@
 <template>
-    <section class="max-w-screen-xl px-4 pt-10 mx-auto mb-10 sm:px-16">
+    <section class="px-4 pt-10 mx-auto mb-10 max-w-screen-2xl sm:px-8">
         <h2 class="block w-full max-w-xl mx-auto text-3xl font-semibold text-center sm:text-4xl">Our typical engagment process</h2>
         <div class="grid grid-cols-1 gap-10 mt-10 lg:grid-cols-2">
             <div class="flex-col items-center hidden py-20 rounded-md bg-primary-100 lg:flex">

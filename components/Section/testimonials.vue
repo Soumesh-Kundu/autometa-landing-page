@@ -1,8 +1,8 @@
 <template>
-    <section class="max-w-screen-xl px-4 py-20 mx-auto sm:px-16">
+    <section class="px-4 py-20 mx-auto max-w-screen-2xl sm:px-8">
         <h1 class="max-w-2xl mx-auto text-3xl font-semibold text-center sm:text-4xl">We are trusted by many customers! Here is a list of
             them!</h1>
-        <div class="grid grid-cols-1 mt-5 sm:grid-cols-3 gap-7">
+        <div class="grid grid-cols-1 mt-10 sm:grid-cols-3 gap-7">
             <div class="flex flex-col items-center gap-7 ">
                 <div class="px-4 py-3 bg-white rounded-md shadow-lg">
                     <div class="grid w-10 h-10 rounded-md bg-primary-100 place-items-center">

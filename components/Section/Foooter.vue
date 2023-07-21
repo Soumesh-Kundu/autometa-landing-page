@@ -1,6 +1,6 @@
 <template>
     <footer >
-        <div class="grid max-w-screen-xl grid-cols-2 gap-10 px-4 py-10 mx-auto sm:grid-cols-4 lg:grid-cols-6 sm:px-16">
+        <div class="grid grid-cols-2 gap-10 px-4 py-10 mx-auto max-w-screen-2xl sm:grid-cols-4 lg:grid-cols-6 sm:px-8">
             <div class="col-span-2 sm:col-span-4 lg:col-span-2 place-self-center">
                 <div class="flex items-center justify-center gap-2 lg:justify-start">
                     <img src="../../assets/images/logo.svg" alt="" class="w-8">
@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="w-full border-t border-t-gray-200">
-            <div class="max-w-screen-xl px-4 py-5 mx-auto text-xs font-medium text-gray-500 sm:px-16">
+            <div class="px-4 py-5 mx-auto text-xs font-medium text-gray-500 max-w-screen-2xl sm:px-8">
                 Qualyval &copy; 2022.All rights reserved  |  Sitemap  
             </div>
         </div>

@@ -1,5 +1,5 @@
 <template>
-    <section class="max-w-screen-xl px-4 py-10 mx-auto sm:px-16">
+    <section class="px-4 py-10 mx-auto max-w-screen-2xl sm:px-8">
         <div class="max-w-3xl mx-auto">
             <h2 class="text-3xl font-semibold text-center sm:text-4xl">Let's integrate your work with other applications that run
                 automatically</h2>
