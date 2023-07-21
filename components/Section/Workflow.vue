@@ -1,7 +1,6 @@
 <template>
     <section class="max-w-screen-xl px-4 pt-10 mx-auto mb-10 sm:px-16">
-        <h2 class="block w-full max-w-md mx-auto text-3xl font-semibold text-center sm:text-4xl">Start with something simple and then
-            scale up</h2>
+        <h2 class="block w-full max-w-xl mx-auto text-3xl font-semibold text-center sm:text-4xl">Our typical engagment process</h2>
         <div class="grid grid-cols-1 gap-10 mt-10 lg:grid-cols-2">
             <div class="flex-col items-center hidden py-20 rounded-md bg-primary-100 lg:flex">
                 <div class="relative flex items-center justify-between w-3/5 gap-2 py-1 mx-2 bg-white rounded-md">

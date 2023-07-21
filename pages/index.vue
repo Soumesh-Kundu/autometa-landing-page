@@ -4,18 +4,14 @@
     <SectionHero />
     <!-- Trusted company and work done section -->
     <section class="max-w-screen-xl px-4 mx-auto md:px-16 ">
-      <div class="grid w-full grid-cols-1 gap-5 py-10 border-t border-b md:gap-0 md:grid-cols-2 border-t-gray-200 border-b-gray-200">
-        <h3 class="text-xl font-semibold sm:text-2xl">Trusted by fast-moving companies and teams around the world</h3>
-        <div class="flex items-center justify-end gap-5 font-semibold ">
-          <div class="flex flex-col gap-1 text-lg sm:text-xl">+1200
-            <span class="text-sm text-gray-500 sm:text-base">Active members</span>
-          </div>
-          <div class="flex flex-col gap-1 text-lg sm:text-xl">+200
-            <span class="text-sm text-gray-500 sm:text-base">Companies use</span>
-          </div>
-          <div class="flex flex-col gap-1 text-lg sm:text-xl">+15000
-            <span class="text-sm text-gray-500 sm:text-base">Work automated</span>
-          </div>
+      <div class="flex flex-col items-center w-full gap-5 py-6 border-t border-b md:gap-0 border-t-gray-200 border-b-gray-200">
+        <h3 class="max-w-xl text-xl font-semibold text-center sm:text-3xl">Trusted by fast-moving companies and teams around the world</h3>
+        <div class="flex flex-wrap items-center justify-around w-full gap-5 font-semibold ">
+          <img src="../assets/images/companies/fendi.png" alt="" class="w-20 ">
+          <img src="../assets/images/companies/pernod_richerd.png" alt="" class="w-28">
+          <img src="../assets/images/companies/SLEEK.jpg" alt="" class="w-28">
+          <img src="../assets/images/companies/viadex.png" alt="" class="w-28">
+          <img src="../assets/images/companies/world_duyy_free.png" alt="" class="w-36">
         </div>
       </div>
     </section>

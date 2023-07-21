@@ -34,7 +34,7 @@
                     <div class="flex items-center gap-2 mt-5 ">
                         <template v-for="(icon, iconIndex) in item.icons">
                             <div class="grid w-10 h-10 border border-gray-200 rounded-md place-items-center">
-                                <img :src="`${icon}`" alt="asdf" class="w-8"
+                                <img :src="`${homeUrl}/${icon}`" alt="asdf" class="w-8"
                                     :class="{ '!w-5': /(notion|slack|facebook|zoom)/.test(icon) }">
                             </div>
                             <PlusCircleIcon v-if="iconIndex !== item.icons.length - 1" class="w-6 h-6 text-gray-500" />
@@ -56,7 +56,10 @@
 
 <script setup>
 import { PlusCircleIcon, ArrowLongRightIcon ,RectangleGroupIcon } from '@heroicons/vue/24/outline';
-
+let homeUrl=""
+onMounted(()=>{
+    homeUrl=`${window.location.protocol}//${window.location.host}`
+})
 const dummyData = [
     {
         title: "Get Slack notification for a new email in Gmail",
