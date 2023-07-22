@@ -34,7 +34,7 @@
                     <div class="flex items-center gap-2 mt-5 ">
                         <template v-for="(icon, iconIndex) in item.icons">
                             <div class="grid w-10 h-10 border border-gray-200 rounded-md place-items-center">
-                                <img :src="`${homeUrl}/${icon}`" alt="asdf" class="w-8"
+                                <img :src="icon" alt="asdf" class="w-8"
                                     :class="{ '!w-5': /(notion|slack|facebook|zoom)/.test(icon) }">
                             </div>
                             <PlusCircleIcon v-if="iconIndex !== item.icons.length - 1" class="w-6 h-6 text-gray-500" />
@@ -56,53 +56,56 @@
 
 <script setup>
 import { PlusCircleIcon, ArrowLongRightIcon ,RectangleGroupIcon } from '@heroicons/vue/24/outline';
-let homeUrl=""
-onMounted(()=>{
-    homeUrl=`${window.location.protocol}//${window.location.host}`
-})
+import Gmail from '~/assets/images/Gmail-logo.png'
+import slack from '~/assets/images/slack.png'
+import notion from '~/assets/images/notion.png'
+import spreadsheet from '~/assets/images/spreadsheet.png'
+import zoom from '~/assets/images/zoom.png'
+import facebook from '~/assets/images/facebook.png'
+
 const dummyData = [
     {
         title: "Get Slack notification for a new email in Gmail",
         icons: [
-            '_nuxt/assets/images/Gmail-logo.png',
-            '_nuxt/assets/images/slack.png'
+            Gmail,
+            slack
         ]
     },
     {
         title: "Create a row in Google Sheet for the newly labeled emails",
         icons: [
-            '_nuxt/assets/images/Gmail-logo.png',
-            '_nuxt/assets/images/spreadsheet.png',
+            Gmail,
+            spreadsheet,
         ]
     },
     {
         title: "Input a data in Notion for Gmail inbox messages",
         icons: [
-            '_nuxt/assets/images/Gmail-logo.png',
-            '_nuxt/assets/images/notion.png',
+            Gmail,
+            notion,
         ]
     },
     {
         title: "Get Slack notification and taking note for a new email",
         icons: [
-            '_nuxt/assets/images/Gmail-logo.png',
-            '_nuxt/assets/images/slack.png',
-            '_nuxt/assets/images/notion.png',
+            Gmail,
+            slack,
+            notion,
         ]
     },
     {
         title: "Create a new Zoom link for a new message in Gmail",
         icons: [
-            '_nuxt/assets/images/Gmail-logo.png',
-            '_nuxt/assets/images/spreadsheet.png',
-            '_nuxt/assets/images/zoom.png',
+            Gmail,
+            spreadsheet,
+            zoom,
         ]
     },
     {
         title: "Share the newest content from Notion",
         icons: [
-            '_nuxt/assets/images/notion.png',
-            '_nuxt/assets/images/facebook.png',
+            notion,
+            facebook,
         ]
     },
 ]
