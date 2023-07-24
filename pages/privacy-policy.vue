@@ -1,5 +1,6 @@
 <template>
     <main class="max-w-screen-lg px-4 mx-auto my-10 sm:px-8">
+        <NuxtLink to="/" class="flex items-center justify-start w-full gap-2 mb-2 text-lg font-semibold sm:justify-end sm:mb-8 group"><span class="text-3xl font-bold -translate-y-0.5 w-5 overflow-hidden group-hover:w-9 duration-200">&xlarr;</span>back</NuxtLink>
         <h2 class="text-4xl font-semibold">Privacy Policy</h2>
         <span class="mt-5 text-sm font-medium text-gray-500"> Effective Date: 23-July-2023</span>
 

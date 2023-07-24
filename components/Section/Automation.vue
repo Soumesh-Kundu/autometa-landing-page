@@ -1,6 +1,6 @@
 <template>
     <section class="grid grid-cols-1 gap-8 px-4 mx-auto my-20 max-w-screen-2xl md:px-8 md:grid-cols-2 place-items-center">
-        <h2 class="text-3xl font-semibold px-14 sm:text-4xl">Run your business on Autopilot</h2>
+        <h2 class="text-3xl font-semibold sm:px-14 sm:text-4xl">Run your business on Autopilot</h2>
         <p class="text-sm font-medium text-gray-500 ">Save valuable time on manual tasks by entrusting them to us. Allow us to streamline processes, ensure your team doesn't overlook essential steps, and accelerate value delivery through Automation.</p>
        
         <div class="flex flex-col h-full gap-2 px-4 py-3 bg-white rounded-md shadow-lg lg:mx-5">
