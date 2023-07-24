@@ -13,9 +13,11 @@
             <div class="col-span-1">
                 <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                     Email</label>
-                <input type="email" id="email"
-                    class="block w-full p-3 text-sm text-gray-900 border border-gray-300 rounded-lg shadow-sm bg-gray-50 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                <input type="email" id="email" @blur="onBlur" :class="{ '!border-red-500': !valid }"
+                    class="block w-full p-3 text-sm text-gray-900 border-2 border-gray-300 rounded-lg shadow-sm bg-gray-50 focus:ring-white focus:border-primary-500"
                     placeholder="name@company.com" required>
+                <span class="text-sm font-medium text-red-500" :class="{ 'visible': !valid, 'invisible': valid }">Email is not
+                    valid</span>
             </div>
             <div class="sm:col-span-2">
                 <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">
@@ -34,5 +36,18 @@
 </template>
 
 <script setup>
-
+const valid = ref(true)
+function onBlur(e) {
+    const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+    if(!e.target.value.length){
+        valid.value=true
+        return 
+    }
+    if (!emailRegex.test(e.target.value)) {
+        valid.value = false
+        return
+    }
+    valid.value = true
+    return
+}
 </script>
