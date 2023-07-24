@@ -7,11 +7,11 @@
       <div class="flex flex-col items-center w-full gap-5 py-6 border-t border-b md:gap-0 border-t-gray-200 border-b-gray-200">
         <h5 class="max-w-xl text-xl font-semibold text-center sm:text-3xl">Trusted by fast-moving companies and teams around the world</h5>
         <div class="flex flex-wrap items-center justify-around w-full gap-5 font-semibold ">
-          <img src="/images/companies/fendi.png" format="webp"  class="w-20 " />
-          <img src="/images/companies/pernod_richerd.png" format="webp"  class="w-28" />
-          <img src="/images/companies/world_duyy_free.png" format="webp"  class="w-36" />
-          <img src="/images/companies/SLEEK.jpg" format="webp"  class="w-28" />
-          <img src="/images/companies/viadex.png"  format="webp" class="w-28" />
+          <img src="/images/companies/fendi.webp" alt="fendi"  class="w-20 " />
+          <img src="/images/companies/pernod_richerd.webp" alt="pernod_richard"  class="w-28" />
+          <img src="/images/companies/world_duyy_free.webp" alt="world_duty_free"  class="w-36" />
+          <img src="/images/companies/SLEEK.webp" alt="Sleek"  class="w-28" />
+          <img src="/images/companies/viadex.webp"  alt="viadex" class="w-28" />
         </div>
       </div>
     </section>
@@ -25,9 +25,7 @@
   </div>
 </template>
 
-<script setup>
 
-</script>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
 

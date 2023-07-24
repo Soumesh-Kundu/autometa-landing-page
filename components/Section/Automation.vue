@@ -5,7 +5,7 @@
        
         <div class="flex flex-col h-full gap-2 px-4 py-3 bg-white rounded-md shadow-lg lg:mx-5">
             <div class="relative grid w-10 h-10 overflow-hidden rounded-md bg-primary-200 place-items-center">
-                <img format="webp" src="/images/marketting.png" alt="" class="w-full" />
+                <img format="webp" src="/images/marketting.webp" alt="marketting-image" class="w-full" />
             </div>
             <h4 class="text-xl font-semibold">Sales & Marketing
             </h4>
@@ -16,7 +16,7 @@
         </div>
         <div class="flex flex-col h-full gap-2 px-4 py-3 bg-white rounded-md shadow-lg lg:mx-5">
             <div class="relative grid w-10 h-10 overflow-hidden rounded-md bg-primary-200 place-items-center">
-                <img format="webp" src="/images/rotate-arrow.png" alt="" class="w-full" />
+                <img format="webp" src="/images/rotate-arrow.webp" alt="Operation-image" class="w-full" />
             </div>
             <h4 class="text-xl font-semibold">Operations</h4>
             <p class="font-medium leading-relaxed text-gray-500 ">Seamless Data Integration: Empower Your Business
@@ -25,7 +25,7 @@
         </div>
         <div class="flex flex-col h-full gap-2 px-4 py-3 bg-white rounded-md shadow-lg lg:mx-5">
             <div class="relative grid w-10 h-10 overflow-hidden rounded-md bg-primary-200 place-items-center">
-                <img format="webp" src="/images/owner.png" alt="" class="w-full" />
+                <img format="webp" src="/images/owner.webp" alt="Customer-experience-image" class="w-full" />
             </div>
             <h4 class="text-xl font-semibold">Customer Experience</h4>
             <p class="font-medium leading-relaxed text-gray-500 "> Enhance Customer Experience: Streamlined Digital
@@ -46,6 +46,5 @@
 </template>
 
 <script setup>
-import { ArrowPathIcon } from '@heroicons/vue/20/solid';
-import { Cog8ToothIcon } from '@heroicons/vue/24/outline';
+
 </script>

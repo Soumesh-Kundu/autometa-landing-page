@@ -105,5 +105,4 @@
 </section></template>
 
 <script setup>
-import { UsersIcon } from '@heroicons/vue/24/outline';
 </script>

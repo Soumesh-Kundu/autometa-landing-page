@@ -5,8 +5,8 @@
             <div class="flex-col items-center hidden py-20 rounded-md bg-primary-100 lg:flex">
                 <div class="relative flex items-center justify-between w-3/5 gap-2 py-1 mx-2 bg-white rounded-md">
                     <div class="flex items-center gap-1">
-                        <div class="grid w-8 h-8 m-2 bg-white place-items-center"><img format="webp" src="/images/Gmail-logo.png"
-                                alt="" class="w-full scale-125" /></div>
+                        <div class="grid w-8 h-8 m-2 bg-white place-items-center"><img  src="/images/Gmail-logo.webp" 
+                                alt="gmail-logo" class="w-full scale-125" /></div>
                         <div class="text-[11px] font-bold">
                             <span class="text-gray-500 ">Trigger</span>
                             <p class="">A new gmail from info@qualyval.com</p>
@@ -36,7 +36,7 @@
                     <div class="relative w-full mt-14">
                         <div
                             class="absolute top-0 left-0 py-2 px-3 -translate-x-1/2 text-[11px] font-bold bg-white rounded-md flex items-center gap-2">
-                            <img format="webp" src="/images/notion.png" alt="" class="w-5 h-5" />
+                            <img alt="notion-logo" src="/images/notion.webp"  class="w-5 h-5" />
                             <div>
                                 <span class="text-gray-500 ">Do</span>
                                 <p class="">Input in Notion page</p>
@@ -44,7 +44,7 @@
                         </div>
                         <div
                             class="absolute top-0 right-0 py-2 px-3 translate-x-1/2 text-[11px] font-bold bg-white rounded-md flex items-center gap-2">
-                            <img format="webp" src="/images/notion.png" alt="" class="w-5 h-5" />
+                            <img alt="notion-logo" src="/images/notion.webp"  class="w-5 h-5" />
                             <div>
                                 <span class="text-gray-500 ">Do</span>
                                 <p class="">Input in Notion page</p>
@@ -54,7 +54,7 @@
                     <div class="relative w-full mt-14">
                         <div
                             class="absolute top-0 left-0 py-2 px-3 -translate-x-1/2 text-[11px] font-bold bg-white rounded-md flex items-center gap-2">
-                            <img format="webp" src="/images/spreadsheet.png" alt="" class="w-5 h-5" />
+                            <img src="/images/spreadsheet.webp" alt="spreadsheet-logo" class="w-5 h-5" />
                             <div>
                                 <span class="text-gray-500 ">Do</span>
                                 <p class="">Input in Spreadsheet</p>
@@ -62,7 +62,7 @@
                         </div>
                         <div
                             class="absolute top-0 right-0 py-2 px-3 translate-x-1/2 text-[11px] font-bold bg-white rounded-md flex items-center gap-2">
-                            <img format="webp" src="/images/spreadsheet.png" alt="" class="w-5 h-5" />
+                            <img src="/images/spreadsheet.webp" alt="spreadsheet-logo" class="w-5 h-5" />
                             <div>
                                 <span class="text-gray-500 ">Do</span>
                                 <p class="">Input in Spreadsheet</p>
