@@ -3,7 +3,7 @@
         <div class="grid grid-cols-2 gap-10 px-4 py-10 mx-auto max-w-screen-2xl sm:grid-cols-4 lg:grid-cols-6 sm:px-8">
             <div class="col-span-2 sm:col-span-4 lg:col-span-2 place-self-center">
                 <div class="flex items-center justify-center gap-2 lg:justify-start">
-                    <img src="../../assets/images/logo.svg" alt="" class="w-8">
+                    <img src="/images/logo.svg" alt="" class="w-8" format="webp"/>
                     <h4 class="text-xl font-bold">Qualyval</h4>
                 </div>
                 <p class="mt-3 text-gray-500">Boost the productivity with AI & Automation</p>

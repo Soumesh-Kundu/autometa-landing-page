@@ -4,7 +4,7 @@
             <div class="px-5 py-2 my-10 border-l-8 border-l-primary-500">
                 <p class="font-semibold text-gray-500 sm:text-xl">Earlier this month my team implemented their first automation.Concept to implementation was less than 60 days and ROI will exceed 600%! Most importantly, it eliminates repetitive daily tasks to drive better customer and employee experience. A huge thank you to <span class="text-primary-500">Pramod Rai</span> and the fantastic team at <span class="text-primary-500">Qualyval</span> !.</p>
                 <div class="flex items-center gap-5 mt-8">
-                    <nuxt-img src="/images/companies/review-profile.webp" format="webp" class="w-14" />
+                    <img src="/images/companies/review-profile.webp" alt="review-image" class="w-14">
                     <div>
                         <span class="font-bold sm:text-sm">Paul Croke</span>
                         <p class="text-xs text-gray-900 sm:text-xs">President at Hinrichs Estimating</p>
@@ -58,7 +58,7 @@
                 </div>
                 <div class="flex items-center gap-1 text-gray-500 sm:text-xl">
                     <CheckCircleIcon class="w-[26px] sm:w-6 h-[26px] sm:h-6 text-primary-500" />
-                    50+ Clienta
+                    50+ Client
                 </div>
                 
             </div>
@@ -92,7 +92,6 @@
 
 <script setup>
 import { ArrowTrendingUpIcon, Cog6ToothIcon, WrenchScrewdriverIcon, CheckCircleIcon, ArrowLeftIcon, Bars3Icon, EllipsisVerticalIcon, PlusCircleIcon, ArrowLongRightIcon } from '@heroicons/vue/24/outline'
-import reviewProfile from '../../assets/images/companies/review-profile.webp'
 
 const data = ref([])
 const dummyData = [
