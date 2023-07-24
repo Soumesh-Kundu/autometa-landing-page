@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col items-center px-4 py-10 mx-auto border-b max-w-screen-2xl sm:px-8 border-b-gray-200 ">
         <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-center sm:text-4xl ">Contact us whenver you like</h2>
-        <p class="mb-8 text-sm font-medium text-center text-gray-500 lg:mb-16 dark:text-gray-400 ">Have any idea? we are
+        <p class="mb-8 font-medium text-center text-gray-500 lg:mb-16 dark:text-gray-400 ">Have any idea? we are
             here for you 24x7 just let us know</p>
         <form action="#" class="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 sm:max-w-screen-md ">
             <div class="col-span-1">

@@ -10,7 +10,7 @@
                     <div class="grid w-10 h-10 rounded-md bg-primary-100 place-items-center">
                         <IconChat />
                     </div>
-                    <p class="mt-5 text-sm font-medium text-gray-500">
+                    <p class="mt-5 font-medium text-gray-500">
                         Earlier this month my team implemented their first automation.Concept to implementation was less
                         than 60 days and ROI will exceed 600%! Most importantly, it eliminates repetitive daily tasks to
                         drive better customer and employee experience. A huge thank you to Pramod Rai and the fantastic team
@@ -25,7 +25,7 @@
                     <div class="grid w-10 h-10 rounded-md bg-primary-100 place-items-center">
                         <IconChat />
                     </div>
-                    <p class="mt-5 text-sm font-medium text-gray-500">
+                    <p class="mt-5 font-medium text-gray-500">
                         The project was completed exactly as I had hoped and very quickly. In addition, the communication
                         and 'hand holding' during handover was great. I'd highly recommend Qualyval for any automation
                         tasks!
@@ -42,7 +42,7 @@
                     <div class="grid w-10 h-10 rounded-md bg-primary-100 place-items-center">
                         <IconChat />
                     </div>
-                    <p class="mt-5 text-sm font-medium text-gray-500">
+                    <p class="mt-5 font-medium text-gray-500">
                         Working with Qualyval's team has been an excellent experience. They delivered beyond what was
                         expected in his project by automating our workflows in AirTable.
                     </p>
@@ -56,7 +56,7 @@
                     <div class="grid w-10 h-10 rounded-md bg-primary-100 place-items-center">
                         <IconChat />
                     </div>
-                    <p class="mt-5 text-sm font-medium text-gray-500">
+                    <p class="mt-5 font-medium text-gray-500">
                         Qualyval team's exceptional understanding of automation concepts, expertise in various coding
                         languages, and problem-solving skills make them an invaluable partner. I am excited to continue
                         collaborating with them for the benefit of my organization. Their outstanding service and strong
@@ -75,7 +75,7 @@
                     <div class="grid w-10 h-10 rounded-md bg-primary-100 place-items-center">
                         <IconChat />
                     </div>
-                    <p class="mt-5 text-sm font-medium text-gray-500">
+                    <p class="mt-5 font-medium text-gray-500">
                         Working with Qualyval was a great experience. They adhere to deadlines and possess extensive
                         knowledge about Tableau. Our work was completed on time, and I was impressed with their
                         communication and expertise. I highly recommend them for any Tableau-related tasks.
@@ -89,7 +89,7 @@
                     <div class="grid w-10 h-10 rounded-md bg-primary-100 place-items-center">
                         <IconChat />
                     </div>
-                    <p class="mt-5 text-sm font-medium text-gray-500">
+                    <p class="mt-5 font-medium text-gray-500">
                         The Qualyval team is exceptionally professional and patient; we will certainly reach out to them for
                         any automation-related needs. They demonstrate a solution-oriented approach to every problem.
                     </p>
@@ -101,7 +101,7 @@
         </div>
     </div>
     <!-- <button type="button"
-            class="flex items-center gap-2 px-5 py-3 mx-auto mt-10 text-sm font-medium text-white rounded-md focus:outline-none bg-primary-500">See more reviews <UsersIcon class="w-5 h-5" /></button> -->
+            class="flex items-center gap-2 px-5 py-3 mx-auto mt-10 font-medium text-white rounded-md focus:outline-none bg-primary-500">See more reviews <UsersIcon class="w-5 h-5" /></button> -->
 </section></template>
 
 <script setup>

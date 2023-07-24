@@ -78,7 +78,7 @@
                         <div class="text-xl font-semibold">01</div>
                         <div>
                             <h4 class="text-xl font-semibold">Audit & Process Analysis</h4>
-                            <p class="mt-2 text-sm font-medium text-gray-500">As an initial phase, we conduct a comprehensive audit and analysis of your current processes to identify bottlenecks, scope for improvements, and potential areas for automation.
+                            <p class="mt-2 font-medium text-gray-500">As an initial phase, we conduct a comprehensive audit and analysis of your current processes to identify bottlenecks, scope for improvements, and potential areas for automation.
                             </p>
                         </div>
                     </li>
@@ -86,7 +86,7 @@
                         <div class="text-xl font-semibold">02</div>
                         <div>
                             <h4 class="text-xl font-semibold">Suggestions & Proposal</h4>
-                            <p class="mt-2 text-sm font-medium text-gray-500">As the subsequent step, we present our comprehensive findings and recommendations, offering various options, each accompanied by its advantages and disadvantages. Additionally, we submit a detailed proposal that includes cost estimates for your consideration.
+                            <p class="mt-2 font-medium text-gray-500">As the subsequent step, we present our comprehensive findings and recommendations, offering various options, each accompanied by its advantages and disadvantages. Additionally, we submit a detailed proposal that includes cost estimates for your consideration.
                             </p>
                         </div>
                     </li>
@@ -94,7 +94,7 @@
                         <div class="text-xl font-semibold">03</div>
                         <div>
                             <h4 class="text-xl font-semibold">Execution</h4>
-                            <p class="mt-2 text-sm font-medium text-gray-500">
+                            <p class="mt-2 font-medium text-gray-500">
                                 During the final phase, we proceed to automate your processes by leveraging cutting-edge technologies such as AI, Automation, Integration, and Digitalisation. Throughout the implementation, we maintain an iterative approach, incorporating continuous feedback to ensure the development of a fully functional solution. Rigorous testing mechanisms are employed to validate its efficacy before delivering the solution to you. Should you require it, we are also pleased to offer ongoing support and maintenance services.
                             </p>
                         </div>

@@ -6,23 +6,23 @@
                     <img src="../../assets/images/logo.svg" alt="" class="w-8">
                     <h4 class="text-xl font-bold">Qualyval</h4>
                 </div>
-                <p class="mt-3 text-sm text-gray-500">Boost the productivity with AI & Automation</p>
+                <p class="mt-3 text-gray-500">Boost the productivity with AI & Automation</p>
                 <!--<form class="flex flex-col items-center gap-4 mx-auto mt-5 sm:gap-2 sm:flex-row">
                     <label for="voice-search" class="sr-only">Search</label>
                     <div class="relative w-full">
 
                         <input type="text" id="voice-search"
-                            class="block w-full py-3.5 pl-5 text-sm text-gray-900 border border-gray-300 rounded-md bg-gray-50 focus:border-black focus:ring-0 placeholde:font-semibold"
+                            class="block w-full py-3.5 pl-5  text-gray-900 border border-gray-300 rounded-md bg-gray-50 focus:border-black focus:ring-0 placeholde:font-semibold"
                             placeholder="Search automation" required>
                     </div>
                     <button type="submit"
-                        class="inline-flex items-center px-5 py-3.5 ml-2 text-sm font-medium text-white border rounded-md bg-neutral-700">Search
+                        class="inline-flex items-center px-5 py-3.5 ml-2  font-medium text-white border rounded-md bg-neutral-700">Search
                     </button>
                 </form>-->
             </div>
             <div class="flex flex-col items-start gap-5">
-                <h5 class="font-semibold ">Product</h5>
-                <ul class="flex flex-col items-start gap-5 text-sm font-medium text-gray-500">
+                <h5 class="text-lg font-semibold">Product</h5>
+                <ul class="flex flex-col items-start gap-5 font-medium text-gray-500">
                     <li>Twitter</li>
                     <li>Linkdin</li>
                     <li>TikTok</li>
@@ -31,8 +31,8 @@
                 </ul>
             </div>
             <div class="flex flex-col items-start gap-5">
-                <h5 class="font-semibold ">Recources</h5>
-                <ul class="flex flex-col items-start gap-5 text-sm font-medium text-gray-500">
+                <h5 class="text-lg font-semibold">Recources</h5>
+                <ul class="flex flex-col items-start gap-5 font-medium text-gray-500">
                     <li>Guide & Tutorials</li>
                     <li>Pricing</li>
                     <li>Changelog</li>
@@ -41,8 +41,8 @@
                 </ul>
             </div>
             <div class="flex flex-col items-start gap-5">
-                <h5 class="font-semibold">Company Details</h5>
-                <ul class="flex flex-col items-start gap-5 text-sm font-medium text-gray-500">
+                <h5 class="text-lg font-semibold">Company Details</h5>
+                <ul class="flex flex-col items-start gap-5 font-medium text-gray-500">
                     <li>Terms and Services</li>
                     <li>Privacy Policy</li>
                     <li>Abuse</li>
@@ -51,8 +51,8 @@
                 </ul>
             </div>
             <div class="flex flex-col items-start gap-5">
-                <h5 class="font-semibold">Get in Touch</h5>
-                <ul class="flex flex-col items-start gap-5 text-sm font-medium text-gray-500">
+                <h5 class="text-lg font-semibold">Get in Touch</h5>
+                <ul class="flex flex-col items-start gap-5 font-medium text-gray-500">
                     <li>Sign Up Free</li>
                     <li>Sign In</li>
                     <li>Support</li>
@@ -60,11 +60,11 @@
                 </ul>
             </div>
         </div>
-        <div class="flex items-center justify-between w-full px-4 py-5 border-t sm:px-16 border-t-gray-200">
-            <div class="text-xs font-medium text-gray-500 ">
+        <div class="flex items-center justify-between w-full px-1 py-5 border-t sm:px-16 border-t-gray-200">
+            <div class="w-1/2 text-sm font-medium text-gray-500 ">
                 Qualyval &copy; 2023.All rights reserved  
             </div>
-            <NuxtLink to="/privacy-policy" class="text-xs font-medium text-gray-500">
+            <NuxtLink to="/privacy-policy" class="text-sm font-medium text-gray-500">
                 PRIVACY POLICY
             </NuxtLink>
         </div>
