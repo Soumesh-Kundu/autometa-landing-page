@@ -2,7 +2,7 @@
     <main class="grid grid-cols-1 gap-8 px-2 py-12 mx-auto mb-5 sm:grid-cols-2 max-w-screen-2xl sm:py-16">
         <div class="order-2 sm:pl-8 place-self-center sm:order-1">
             <div class="px-5 py-2 my-10 border-l-8 border-l-primary-500">
-                <p class="text-sm font-medium text-gray-500 sm:text-lg">Earlier this month my team implemented their first automation.Concept to implementation was less than 60 days and ROI will exceed 600%! Most importantly, it eliminates repetitive daily tasks to drive better customer and employee experience. A huge thank you to <span class="text-primary-500">Pramod Rai</span> and the fantastic team at <span class="text-primary-500">Qualyval</span> !.</p>
+                <p class="text-xs text-gray-500 sm:text-lg">Earlier this month my team implemented their first automation.Concept to implementation was less than 60 days and ROI will exceed 600%! Most importantly, it eliminates repetitive daily tasks to drive better customer and employee experience. A huge thank you to <span class="text-primary-500">Pramod Rai</span> and the fantastic team at <span class="text-primary-500">Qualyval</span> !.</p>
                 <div class="flex items-center gap-5 mt-8">
                     <img src="/images/companies/review-profile.webp" alt="review-image" class="w-14">
                     <div>
