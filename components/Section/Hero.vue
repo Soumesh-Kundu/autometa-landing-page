@@ -55,6 +55,7 @@
                 <div class="flex items-center gap-1 text-sm text-gray-500 sm:text-lg">
                     <CheckCircleIcon class="w-[36px] sm:w-6 h-[36px] sm:h-6 text-primary-500" />
                     100+ Systems integrated
+                    
                 </div>
                 <div class="flex items-center gap-1 text-sm text-gray-500 sm:text-lg">
                     <CheckCircleIcon class="w-[26px] sm:w-6 h-[26px] sm:h-6 text-primary-500" />
