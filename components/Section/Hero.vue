@@ -2,7 +2,7 @@
     <main class="grid grid-cols-1 gap-8 px-2 py-12 mx-auto mb-5 sm:grid-cols-2 max-w-screen-2xl sm:py-16">
         <div class="order-2 sm:pl-8 place-self-center sm:order-1">
             <div class="px-5 py-2 my-10 border-l-8 border-l-primary-500">
-                <p class="text-xs text-gray-500 sm:text-lg">Earlier this month my team implemented their first automation.Concept to implementation was less than 60 days and ROI will exceed 600%! Most importantly, it eliminates repetitive daily tasks to drive better customer and employee experience. A huge thank you to <span class="text-primary-500">Pramod Rai</span> and the fantastic team at <span class="text-primary-500">Qualyval</span> !.</p>
+                <p class="text-gray-500  sm:text-lg">Earlier this month my team implemented their first automation.Concept to implementation was less than 60 days and ROI will exceed 600%! Most importantly, it eliminates repetitive daily tasks to drive better customer and employee experience. A huge thank you to <span class="text-primary-500">Pramod Rai</span> and the fantastic team at <span class="text-primary-500">Qualyval</span> !.</p>
                 <div class="flex items-center gap-5 mt-8">
                     <img src="/images/companies/review-profile.webp" alt="review-image" class="w-14">
                     <div>
@@ -37,27 +37,27 @@
             </div>
             <div class="flex flex-col max-w-3xl my-5">
                 <h1 class="text-3xl sm:text-[2.75rem] font-bold leading-tight lg:text-6xl">Boost Productivity with AI & Automation</h1>
-                <p class="w-full mt-10 text-sm font-medium text-gray-500 sm:text-lg sm:w-3/4 lg:w-11/12">
+                <p class="w-full mt-10 font-medium text-gray-500 sm:text-lg sm:w-3/4 lg:w-11/12">
                     We assist businesses in achieving growth, solving problems, enhancing productivity, and optimising
                     efficiency through the application of AI, Automation, and Digital technologies.
 
                 </p>
             </div>
             <div class="grid w-full grid-cols-2 gap-5 font-bold">
-                <div class="flex items-center gap-1 text-sm text-gray-500 sm:text-lg">
+                <div class="flex items-center gap-1 text-gray-500 sm:text-lg">
                     <CheckCircleIcon class="w-[40px] sm:w-6 h-[40px] sm:h-6 text-primary-500" />
                     200+ Processes automated
                 </div>
-                <div class="flex items-center gap-1 text-sm text-gray-500 sm:text-lg">
+                <div class="flex items-center gap-1 text-gray-500 sm:text-lg">
                     <CheckCircleIcon class="w-[40px] sm:w-6 h-[40px] sm:h-6 text-primary-500" />
                     10+ Digital Products delivered
                 </div>
-                <div class="flex items-center gap-1 text-sm text-gray-500 sm:text-lg">
+                <div class="flex items-center gap-1 text-gray-500 sm:text-lg">
                     <CheckCircleIcon class="w-[36px] sm:w-6 h-[36px] sm:h-6 text-primary-500" />
                     100+ Systems integrated
                     
                 </div>
-                <div class="flex items-center gap-1 text-sm text-gray-500 sm:text-lg">
+                <div class="flex items-center gap-1 text-gray-500 sm:text-lg">
                     <CheckCircleIcon class="w-[26px] sm:w-6 h-[26px] sm:h-6 text-primary-500" />
                     50+ Client
                 </div>
