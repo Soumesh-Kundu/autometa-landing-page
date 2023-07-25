@@ -6,11 +6,11 @@
                 with major CRMs, Finance systems, Databases, SaaS applications, UI/UX, Marketing applications, and other
                 modern systems.</p>
         </div>
-        <!-- <picture>
+        <picture>
             <source media="(max-width:648px)" srcset="/images/banner-sm.webp"/>
             <source media="(max-width: 1024px)" srcset="/images/banner-lg.webp"/>
             <img src="/images/banner.webp" alt="banner-image" class="w-full my-5" />
-        </picture> -->
+        </picture>
     </section>
 </template>
 

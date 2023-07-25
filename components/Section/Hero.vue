@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="flex flex-col max-w-3xl my-5">
-                <h1 class="text-[2.75rem] font-bold leading-tight lg:text-6xl">Boost Productivity with AI & Automation</h1>
+                <h1 class="text-4xl font-bold leading-tight lg:text-6xl">Boost Productivity with AI & Automation</h1>
                 <p class="w-full mt-10 font-medium text-gray-500 sm:text-xl sm:w-3/4 lg:w-11/12">
                     We assist businesses in achieving growth, solving problems, enhancing productivity, and optimising
                     efficiency through the application of AI, Automation, and Digital technologies.
