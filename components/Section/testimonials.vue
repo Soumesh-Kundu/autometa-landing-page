@@ -6,7 +6,7 @@
             them!</h1>
         <div class="grid grid-cols-1 mt-10 sm:grid-cols-3 gap-7">
             <div class="flex flex-col items-center gap-7 ">
-                <div class="flex flex-col justify-around px-4 py-3 bg-white rounded-md shadow-lg grow">
+                <div class="flex flex-col justify-around px-4 py-3 duration-200 bg-white rounded-md shadow-lg grow lg:hover:shadow-2xl">
                     <div class="grid w-10 h-10 rounded-md bg-primary-100 place-items-center">
                         <IconChat />
                     </div>
@@ -21,7 +21,7 @@
                         <p class="mt-3 text-sm text-gray-500">President - Hinrichs Estimating</p>
                     </div>
                 </div>
-                <div class="flex flex-col justify-around px-4 py-3 bg-white rounded-md shadow-lg">
+                <div class="flex flex-col justify-around px-4 py-3 duration-200 bg-white rounded-md shadow-lg lg:hover:shadow-2xl">
                     <div class="grid w-10 h-10 rounded-md bg-primary-100 place-items-center">
                         <IconChat />
                     </div>
@@ -38,7 +38,7 @@
             </div>
             <!-- col 2 -->
             <div class="flex flex-col items-center gap-7 ">
-                <div class="flex flex-col justify-around px-4 py-3 bg-white rounded-md shadow-lg">
+                <div class="flex flex-col justify-around px-4 py-3 duration-200 bg-white rounded-md shadow-lg lg:hover:shadow-2xl">
                     <div class="grid w-10 h-10 rounded-md bg-primary-100 place-items-center">
                         <IconChat />
                     </div>
@@ -52,7 +52,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col justify-around px-4 py-3 bg-white rounded-md shadow-lg">
+                <div class="flex flex-col justify-around px-4 py-3 duration-200 bg-white rounded-md shadow-lg lg:hover:shadow-2xl">
                     <div class="grid w-10 h-10 rounded-md bg-primary-100 place-items-center">
                         <IconChat />
                     </div>
@@ -71,7 +71,7 @@
             </div>
             <!-- col 3 -->
             <div class="flex flex-col items-center gap-7 ">
-                <div class="flex flex-col justify-around px-4 py-3 bg-white rounded-md shadow-lg grow">
+                <div class="flex flex-col justify-around px-4 py-3 duration-200 bg-white rounded-md shadow-lg grow lg:hover:shadow-2xl">
                     <div class="grid w-10 h-10 rounded-md bg-primary-100 place-items-center">
                         <IconChat />
                     </div>
@@ -85,7 +85,7 @@
                         <p class="mt-3 text-sm text-gray-500">Co-founder - Ressy app</p>
                     </div>
                 </div>
-                <div class="flex flex-col justify-around px-4 py-3 bg-white rounded-md shadow-lg">
+                <div class="flex flex-col justify-around px-4 py-3 duration-200 bg-white rounded-md shadow-lg lg:hover:shadow-2xl">
                     <div class="grid w-10 h-10 rounded-md bg-primary-100 place-items-center">
                         <IconChat />
                     </div>
@@ -95,14 +95,13 @@
                     </p>
                     <div class="mt-5">
                         <span class="font-bold ">Elias Hitti</span>
-                    <p class="mt-3 text-sm text-gray-500">Owner - Redefined Growth Marketing</p>
+                        <p class="mt-3 text-sm text-gray-500">Owner - Redefined Growth Marketing</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- <button type="button"
-            class="flex items-center gap-2 px-5 py-3 mx-auto mt-10 font-medium text-white rounded-md focus:outline-none bg-primary-500">See more reviews <UsersIcon class="w-5 h-5" /></button> -->
-</section></template>
+    </section>
+</template>
 
 <script setup>
 </script>

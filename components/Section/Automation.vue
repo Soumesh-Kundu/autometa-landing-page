@@ -3,7 +3,7 @@
         <h2 class="text-3xl font-semibold sm:px-14 sm:text-4xl">Run your business on Autopilot</h2>
         <p class="font-medium text-gray-500 ">Save valuable time on manual tasks by entrusting them to us. Allow us to streamline processes, ensure your team doesn't overlook essential steps, and accelerate value delivery through Automation.</p>
        
-        <div class="flex flex-col h-full gap-2 px-4 py-3 bg-white rounded-md shadow-lg lg:mx-5">
+        <div class="flex flex-col h-full gap-2 px-4 py-3 duration-200 bg-white rounded-md shadow-lg lg:mx-5 hover:shadow-2xl">
             <div class="relative grid w-10 h-10 overflow-hidden rounded-md bg-primary-200 place-items-center">
                 <img format="webp" src="/images/marketting.webp" alt="marketting-image" class="w-full" />
             </div>
@@ -14,7 +14,7 @@
                 Management with Automation.
             </p>
         </div>
-        <div class="flex flex-col h-full gap-2 px-4 py-3 bg-white rounded-md shadow-lg lg:mx-5">
+        <div class="flex flex-col h-full gap-2 px-4 py-3 duration-200 bg-white rounded-md shadow-lg lg:mx-5 hover:shadow-2xl">
             <div class="relative grid w-10 h-10 overflow-hidden rounded-md bg-primary-200 place-items-center">
                 <img format="webp" src="/images/rotate-arrow.webp" alt="Operation-image" class="w-full" />
             </div>
@@ -23,7 +23,7 @@
                 with Unified Systems, minimise manual workload and Eliminate Errors or Data Loss.
             </p>
         </div>
-        <div class="flex flex-col h-full gap-2 px-4 py-3 bg-white rounded-md shadow-lg lg:mx-5">
+        <div class="flex flex-col h-full gap-2 px-4 py-3 duration-200 bg-white rounded-md shadow-lg lg:mx-5 lg:hover:shadow-2xl">
             <div class="relative grid w-10 h-10 overflow-hidden rounded-md bg-primary-200 place-items-center">
                 <img format="webp" src="/images/owner.webp" alt="Customer-experience-image" class="w-full" />
             </div>
@@ -31,7 +31,7 @@
             <p class="font-medium leading-relaxed text-gray-500 "> Enhance Customer Experience: Streamlined Digital
                 Journey with Automation and Innovation.</p>
         </div>
-        <div class="flex flex-col h-full gap-2 px-4 py-3 bg-white rounded-md shadow-lg lg:mx-5">
+        <div class="flex flex-col h-full gap-2 px-4 py-3 duration-200 bg-white rounded-md shadow-lg lg:mx-5 hover:shadow-2xl">
             <div class="relative grid w-10 h-10 overflow-hidden rounded-md bg-primary-200 place-items-center">
                 <span class="text-3xl i-mdi-finance text-primary-500"></span>
             </div>
