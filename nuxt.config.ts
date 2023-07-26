@@ -4,7 +4,10 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss','@nuxt/image'],
   runtimeConfig:{
     public:{
-      url:""
+      serverApiKey:"",
+      appId:"",
+      db:"",
+      collection:""
     }
   },
   app:{
