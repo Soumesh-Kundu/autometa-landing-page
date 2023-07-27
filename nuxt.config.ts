@@ -12,13 +12,14 @@ export default defineNuxtConfig({
   },
   app:{
     head:{
-      title:"Qualyval - Ai & Automation",
+      title:"Qualyval - AI & Automation",
       meta:[
         {name:'description',content:"Make your repetitive work done automate with the help of your team. We are here for you to make your life easy with AI and Automation, So you can focus on your other important task"}
       ],
       htmlAttrs:{
         lang:'en'
-      }
+      },
+      link:[{rel:'icon',type:'image/svg+xml',href:"/images/logo.svg"}]
     },
   },
   image:{
