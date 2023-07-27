@@ -29,17 +29,6 @@
 </template>
 
 <script setup>
-useHead({
-  script:[
-    {src:`https://www.googletagmanager.com/gtag/js?id=${useRuntimeConfig().public.googleAnalyticsId}`,async:true}
-  ]
-})
-onMounted(()=>{
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){window.dataLayer.push(window.arguments);}
-  gtag('js', new Date());
-  gtag('config', useRuntimeConfig().public.googleAnalyticsId);
-})
 </script>
 
 <style>
