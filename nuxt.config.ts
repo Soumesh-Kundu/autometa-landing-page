@@ -1,13 +1,15 @@
+
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: ['@nuxtjs/tailwindcss','@nuxt/image'],
   runtimeConfig:{
+    serverApiKey:"",
+    appId:"",
+    db:"",
+    collection:"",
     public:{
-      serverApiKey:"",
-      appId:"",
-      db:"",
-      collection:"",
       googleAnalyticsId:""
     }
   },
@@ -20,10 +22,10 @@ export default defineNuxtConfig({
       htmlAttrs:{
         lang:'en'
       },
-      link:[{rel:'icon',type:'image/svg+xml',href:"/images/logo.svg"}]
+      link:[{rel:'icon',type:'image/svg+xml',href:"/images/logo.svg"}],
     },
   },
   image:{
     provider:'ipx'
-  }
+  },
 })

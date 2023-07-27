@@ -2,7 +2,7 @@ import * as Realm from 'realm-web'
 
 export function useRealm() {
     const app = new Realm.App({
-        id: useRuntimeConfig().public.appId,
+        id: useRuntimeConfig().appId,
     });
     let mongo = null;
     if (app?.currentUser) {
@@ -17,7 +17,7 @@ export function useRealm() {
 
 export async function getServerUser() {
     const { app, Realm } = useRealm()
-    const credentials = Realm.Credentials.apiKey(useRuntimeConfig().public.serverApiKey)
+    const credentials = Realm.Credentials.apiKey(useRuntimeConfig().serverApiKey)
     const user = await app.logIn(credentials)
     return user
 }

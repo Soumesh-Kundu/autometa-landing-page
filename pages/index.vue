@@ -10,8 +10,10 @@
         around the world</h5>
       <div class="flex flex-wrap items-center justify-around w-full gap-5 font-semibold ">
         <img src="/images/companies/fendi.webp" alt="fendi" class="w-20 duration-200 lg:hover:scale-110" />
-        <img src="/images/companies/pernod_richerd.webp" alt="pernod_richard" class="duration-200 w-28 lg:hover:scale-110" />
-        <img src="/images/companies/world_duyy_free.webp" alt="world_duty_free" class="duration-200 w-36 lg:hover:scale-110" />
+        <img src="/images/companies/pernod_richerd.webp" alt="pernod_richard"
+          class="duration-200 w-28 lg:hover:scale-110" />
+        <img src="/images/companies/world_duyy_free.webp" alt="world_duty_free"
+          class="duration-200 w-36 lg:hover:scale-110" />
         <img src="/images/companies/SLEEK.webp" alt="Sleek" class="duration-200 w-28 lg:hover:scale-110" />
         <img src="/images/companies/viadex.webp" alt="viadex" class="duration-200 w-28 lg:hover:scale-110" />
       </div>
@@ -27,6 +29,17 @@
 </template>
 
 <script setup>
+useHead({
+  script:[
+    {src:`https://www.googletagmanager.com/gtag/js?id=${useRuntimeConfig().public.googleAnalyticsId}`,async:true}
+  ]
+})
+onMounted(()=>{
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-L7PSZ45ZTZ');
+})
 </script>
 
 <style>

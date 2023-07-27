@@ -7,8 +7,8 @@ export default  defineEventHandler(async (event)=>{
         user=await getServerUser()
     }
     const mongo=user?.mongoClient('mongodb-atlas')
-    const database=useRuntimeConfig().public.db
-    const col=useRuntimeConfig().public.collection ?? "users"
+    const database=useRuntimeConfig().db
+    const col=useRuntimeConfig().collection ?? "users"
     const userCollection=mongo?.db(database)?.collection(col)
     try {
         const {name,email,message}=await readBody(event)
