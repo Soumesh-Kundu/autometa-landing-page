@@ -23,6 +23,7 @@
     "abort-controller": "^3.0.0",
     "flowbite": "^1.7.0",
     "node-fetch": "^3.3.2",
-    "realm-web": "^2.0.0"
+    "realm-web": "^2.0.0",
+    "vue-gtag-next": "^1.14.0"
   }
 }

@@ -7,7 +7,8 @@ export default defineNuxtConfig({
       serverApiKey:"",
       appId:"",
       db:"",
-      collection:""
+      collection:"",
+      googleAnalyticsId:""
     }
   },
   app:{
