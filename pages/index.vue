@@ -36,9 +36,9 @@ useHead({
 })
 onMounted(()=>{
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag(){window.dataLayer.push(window.arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-L7PSZ45ZTZ');
+  gtag('config', useRuntimeConfig().public.googleAnalyticsId);
 })
 </script>
 
