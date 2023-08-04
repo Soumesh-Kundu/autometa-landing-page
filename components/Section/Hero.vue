@@ -11,6 +11,11 @@
                     </div>
                 </div>
             </div>
+            <!-- Enquiry Button -->
+            <button type="button" data-modal-target="Contact-modal" data-modal-toggle="Contact-modal"
+                    class="flex items-center px-8 py-3 ml-10 font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none" >       
+                    Enquiry
+                </button>
         </div>
         <div class="flex flex-col items-center order-1 gap-5 sm:order-2">
             <div class="flex flex-wrap items-center w-full gap-3 sm:gap-7 ">
@@ -64,30 +69,15 @@
                 
             </div>
         </div>
-       
+       <ModalContact />
     </main>
 </template>
 
 <script setup>
+import {initModals} from 'flowbite'
 import { Cog6ToothIcon, WrenchScrewdriverIcon, CheckCircleIcon } from '@heroicons/vue/24/outline'
+
+onMounted(()=>{
+    initModals()
+})
 </script>
-
-<style scoped>
-.custom-shadow {
-    box-shadow: inset 0 -10px 30px 30px white !important;
-
-}
-
-.screenAnimation {
-    animation: screenIn 300ms forwards;
-    /* animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); */
-    animation-delay: calc(150ms*(var(--delay)));
-}
-
-@keyframes screenIn {
-    to{
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-</style>

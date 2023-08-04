@@ -21,7 +21,7 @@
     "@iconify-json/mdi": "^1.1.53",
     "@iconify-json/streamline": "^1.1.3",
     "abort-controller": "^3.0.0",
-    "flowbite": "^1.7.0",
+    "flowbite": "^1.8.1",
     "node-fetch": "^3.3.2",
     "realm-web": "^2.0.0",
     "vue-gtag-next": "^1.14.0"
