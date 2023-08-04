@@ -56,6 +56,9 @@
                             </button>
                         </div>
                     </form>
+                    <div v-show="isDone" class="grid py-2 place-items-center">
+                        <p class="text-center text-primary-800">Thank you for your message. We will get in touch with you soon.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -111,7 +114,11 @@ async function onSubmit(){
         isDone.value=true
         email.value=""
         name.value=""
-        message.value=""        
+        message.value=""  
+        setTimeout(() => {
+            closeButtonRef.value.click()
+            isDone.value=false
+        }, 1500);      
        }
     } catch (error) {
         console.log(error)

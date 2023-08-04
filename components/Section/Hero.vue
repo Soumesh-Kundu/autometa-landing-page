@@ -13,8 +13,8 @@
             </div>
             <!-- Enquiry Button -->
             <button type="button" data-modal-target="Contact-modal" data-modal-toggle="Contact-modal"
-                    class="flex items-center w-auto px-8 py-3 mx-auto font-medium text-center text-white rounded-lg sm:ml-10 bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none" >       
-                    Enquiry
+                    class="flex items-center w-auto px-8 py-3 mx-auto font-medium text-center text-white rounded-lg sm:mt-12 sm:ml-20 bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none" >       
+                   Discover More
                 </button>
         </div>
         <div class="flex flex-col items-center order-1 gap-5 sm:order-2">
