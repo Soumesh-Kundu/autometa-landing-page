@@ -4,7 +4,7 @@
         <div class="relative w-full max-w-md max-h-full ">
             <!-- Modal content -->
             <div class="relative bg-white rounded-lg shadow">
-                <button type="button" ref="closeButtonRef"
+                <button type="button" :class="{'hidden':isLoading}" ref="closeButtonRef"
                     class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center"
                     data-modal-hide="Contact-modal">
                     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -16,8 +16,8 @@
                 </button>
                 <div class="px-6 py-6 lg:px-8">
                     <!-- Enquiry form Heading -->
-                    <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Contact us</h3>
-                    <form class="space-y-3" action="#" @submit.prevent="onSubmit">
+                    <h3 v-if="!isLoading && !isDone" class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Contact us</h3>
+                    <form v-if="!isLoading && !isDone" class="space-y-3" action="#" @submit.prevent="onSubmit">
                         <div class="col-span-1">
                             <label for="Name"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Name</label>
@@ -56,8 +56,20 @@
                             </button>
                         </div>
                     </form>
-                    <div v-show="isDone" class="grid py-2 place-items-center">
-                        <p class="text-center text-primary-800">Thank you for your message. We will get in touch with you soon.</p>
+                    <div v-if="isLoading" class="flex flex-col items-center justify-center w-full gap-5 py-10 px-14">
+                        <IconGreenSpinner />
+                        <span>
+                            Please Wait...
+                        </span>
+                    </div>
+                    <div v-if="isDone" class='flex flex-col items-center gap-5 py-5'>
+                        <button type="submit" disabled
+                            class="flex items-center px-5 py-3 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none"
+                            :class="{ '!py-1.5 ': isLoading }">
+                            <CheckCircleIcon class="w-5 h-5" /> Sent!
+                        </button>
+                        <p class="text-center text-primary-800">Thank you for your message. We will get in touch with you
+                            soon.</p>
                     </div>
                 </div>
             </div>
@@ -72,9 +84,9 @@ const valid = ref(true)
 const email = ref("")
 const name = ref("")
 const message = ref("")
-const closeButtonRef=ref(null)
-const isLoading=ref(false)
-const isDone=ref(false)
+const closeButtonRef = ref(null)
+const isLoading = ref(false)
+const isDone = ref(false)
 function onBlurEmail(e) {
     const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
     if (!e.target.value.length) {
@@ -88,41 +100,41 @@ function onBlurEmail(e) {
     valid.value = true
     return
 }
-async function onSubmit(){
-    if(!valid.value) return
-    if(isDone.value) return
+async function onSubmit() {
+    if (!valid.value) return
+    if (isDone.value) return
     try {
-        isLoading.value=true
-       const {data,status}=await useFetch('/api/saveMessage',{
-        method:"POST",
-        headers:{
-            "Content-Type":"application/json"
-        },
-        body:{
-            email:email.value,
-            name:name.value,
-            message:message.value
-        },
-        onResponseError({request,response}){
-            if(response.status===500){
-                isLoading.value=false
+        isLoading.value = true
+        const { data, status } = await useFetch('/api/saveMessage', {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: {
+                email: email.value,
+                name: name.value,
+                message: message.value
+            },
+            onResponseError({ request, response }) {
+                if (response.status === 500) {
+                    isLoading.value = false
+                }
             }
+        })
+        if (status.value === 'success') {
+            isLoading.value = false
+            isDone.value = true
+            email.value = ""
+            name.value = ""
+            message.value = ""
+            setTimeout(() => {
+                closeButtonRef.value.click()
+                isDone.value = false
+            }, 1700);
         }
-       }) 
-       if(status.value==='success'){
-        isLoading.value=false
-        isDone.value=true
-        email.value=""
-        name.value=""
-        message.value=""  
-        setTimeout(() => {
-            closeButtonRef.value.click()
-            isDone.value=false
-        }, 1500);      
-       }
     } catch (error) {
         console.log(error)
-        isLoading.value=false
+        isLoading.value = false
     }
 }
 </script>
