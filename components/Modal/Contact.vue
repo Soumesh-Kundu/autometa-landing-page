@@ -1,7 +1,7 @@
 <template>
     <div id="Contact-modal" tabindex="-1" aria-hidden="true"
-        class="fixed top-0 left-0 right-0 z-50 hidden w-full max-h-full p-4 overflow-x-hidden overflow-y-auto bg-gray-100 md:inset-0 bg-opacity-20">
-        <div class="relative w-full max-w-md max-h-full">
+        class="fixed left-0 right-0 z-50 hidden w-full max-h-full p-4 overflow-x-hidden overflow-y-auto bg-gray-100 top-[12.5%] md:top-0 md:inset-0 bg-opacity-20">
+        <div class="relative w-full max-w-md max-h-full ">
             <!-- Modal content -->
             <div class="relative bg-white rounded-lg shadow">
                 <button type="button" ref="closeButtonRef"
